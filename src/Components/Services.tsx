@@ -42,7 +42,7 @@ const Services = () => {
     return (
         <div
             style={{
-                background: '#f4f4f4',
+                background: '#f9f9f9',
                 padding: '40px 20px',
                 transition: 'opacity 1s ease',
                 opacity: visible ? 1 : 0,

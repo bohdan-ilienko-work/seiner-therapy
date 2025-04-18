@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react'
 
 const { Header: AntHeader } = Layout
 
-const sections = ['about', 'services', 'education', 'contact-with-me']
+const sections = ['about', 'services', 'experience', 'education', 'contact-with-me']
 
 const Header = () => {
     const [current, setCurrent] = useState('about')
@@ -54,6 +54,10 @@ const Header = () => {
         {
             label: <a href="#services" onClick={() => setDrawerOpen(false)}>Послуги</a>,
             key: 'services',
+        },
+        {
+            label: <a href="#experience" onClick={() => setDrawerOpen(false)}>Досвід роботи</a>,
+            key: 'experience',
         },
         {
             label: <a href="#education" onClick={() => setDrawerOpen(false)}>Освіта</a>,

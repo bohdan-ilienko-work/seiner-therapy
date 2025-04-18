@@ -14,11 +14,9 @@ const Footer = () => {
     return (
         <AntFooter
             style={{
-                background: '#f4f4f4',
+                background: '#f9f9f9',
                 padding: '40px 20px',
                 textAlign: 'center',
-                borderTop: '1px solid #eee',
-                marginTop: 80,
                 position: 'relative',
             }}
         >

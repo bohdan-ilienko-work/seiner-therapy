@@ -18,7 +18,7 @@ const AboutMe = () => {
     return (
         <div
             style={{
-                background: '#f9f9f9',
+                background: '#f4f4f4',
                 padding: '40px 20px',
                 minHeight: '100vh',
                 transition: 'opacity 1s ease',

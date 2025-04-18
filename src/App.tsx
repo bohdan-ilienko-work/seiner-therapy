@@ -5,6 +5,7 @@ import Education from "./Components/Education"
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 import Services from "./Components/Services"
+import WorkExperience from "./Components/WorkExperience"
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       </div>
       <div id="services" style={{ scrollMarginTop: 80 }}>
         <Services />
+      </div>
+      <div id="experience" style={{ scrollMarginTop: 80 }}>
+        <WorkExperience />
       </div>
       <div id="education" style={{ scrollMarginTop: 80 }}>
         <Education />

@@ -56,7 +56,7 @@ const Footer = () => {
                         <InstagramOutlined /> Instagram
                     </Link>
                     <Link href="tel:+380991234567">
-                        <PhoneOutlined /> +38 (099) 123 45 67
+                        <PhoneOutlined /> +38 (066) 616-71-28
                     </Link>
                 </div>
 

@@ -1,9 +1,10 @@
-import { Layout, Typography, } from 'antd'
+import { Layout, Typography, FloatButton } from 'antd'
 import {
     InstagramOutlined,
     PhoneOutlined,
     SendOutlined,
     MailOutlined,
+    ArrowUpOutlined,
 } from '@ant-design/icons'
 
 const { Footer: AntFooter } = Layout
@@ -18,6 +19,7 @@ const Footer = () => {
                 textAlign: 'center',
                 borderTop: '1px solid #eee',
                 marginTop: 80,
+                position: 'relative',
             }}
         >
             <div
@@ -62,6 +64,12 @@ const Footer = () => {
                     © {new Date().getFullYear()} Анастасія Кириленко · Усі права захищено
                 </Text>
             </div>
+
+            <FloatButton.BackTop
+                visibilityHeight={200}
+                icon={<ArrowUpOutlined />}
+                style={{ right: 24, bottom: 24 }}
+            />
         </AntFooter>
     )
 }

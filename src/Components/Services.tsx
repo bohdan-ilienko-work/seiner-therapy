@@ -62,7 +62,7 @@ const Services = () => {
                                     borderRadius: '12px',
                                     boxShadow: '0 8px 24px rgba(0,0,0,0.05)',
                                 }}
-                                bodyStyle={{ padding: '24px' }}
+                                styles={{ body: { padding: '24px' } }}
                                 hoverable
                             >
                                 <Title level={4} style={{ marginBottom: 12 }}>

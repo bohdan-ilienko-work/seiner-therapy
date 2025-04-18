@@ -2,6 +2,7 @@
 import AboutMe from "./Components/AboutMe"
 import ContactForm from "./Components/ContactForm"
 import Education from "./Components/Education"
+import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 import Services from "./Components/Services"
 
@@ -22,6 +23,7 @@ function App() {
       <div id="contact-with-me">
         <ContactForm />
       </div>
+      <Footer />
     </>
   )
 }

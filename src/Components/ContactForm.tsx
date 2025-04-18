@@ -75,7 +75,7 @@ const ContactForm = () => {
                             name="message"
                             rules={[{ required: true, message: 'Напишіть коротке повідомлення' }]}
                         >
-                            <TextArea rows={4} placeholder="З чим би ви хотіли попрацювати..." />
+                            <TextArea rows={8} placeholder="З чим би ви хотіли попрацювати..." style={{ resize: 'none' }} />
                         </Form.Item>
 
                         <Form.Item style={{ textAlign: 'center', marginTop: 24 }}>

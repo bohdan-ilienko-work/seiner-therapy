@@ -20,8 +20,18 @@ const ContactForm = () => {
     }, [])
 
     const onFinish = (values: FormValues) => {
-        console.log('Submitted:', values)
-        // Тут можна додати API-виклик або інтеграцію з email сервісом
+        const { name, contact, message } = values
+        const formattedMessage = `
+        Ім’я: ${name}
+        Контакт: ${contact}
+        Повідомлення: ${message}
+        `
+
+        window.open(
+            `mailto:anastasiakirilenko29@gmail.com?subject=Запитання від ${name}&body=${encodeURIComponent(
+                formattedMessage
+            )}`
+        )
     }
 
     return (

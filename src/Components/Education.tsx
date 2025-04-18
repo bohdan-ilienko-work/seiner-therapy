@@ -12,9 +12,9 @@ const Education = () => {
     }, [])
 
     const images = [
-        '/certificates/diploma.jpg',
-        '/certificates/gestalt.jpg',
-        '/certificates/neo.jpg',
+        '/seiner-therapy/certificates/diploma.jpg',
+        '/seiner-therapy/certificates/gestalt.jpg',
+        '/seiner-therapy/certificates/neo.jpg',
     ]
 
     return (

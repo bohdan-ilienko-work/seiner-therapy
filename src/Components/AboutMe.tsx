@@ -38,7 +38,7 @@ const AboutMe = () => {
                 <div style={{ textAlign: 'center', marginBottom: 32 }}>
                     <Avatar
                         size={120}
-                        src="/ava.jpg"
+                        src="/seiner-therapy/ava.jpg"
                         style={{
                             backgroundColor: '#d9d9d9',
                             boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
